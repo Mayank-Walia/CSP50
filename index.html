@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling</title>
+    <style>
+        /* table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 2px;
+        }
+
+        div>p{
+            background-color: yellow;
+        }
+
+        div a p{
+            background-color: green;
+        }
+
+        [href]{
+            background-color: red;
+        }
+        .first{
+            color:blue;
+        }
+        *{
+            background-color: black;
+            color:antiquewhite;
+            padding: 10px;
+        } */
+        ol ul li{
+            color:blue;
+        }
+        button{
+            background-color: red;
+        }
+        button:hover{
+            background-color: green;
+        }
+        .btns{
+            width:200px;
+            padding: 2px;
+            margin: 1px;
+            font-size:24px;
+        }
+        /* body{
+            background-color: red;
+        } */
+
+        @media (min-width: 600px){
+            body{
+                background-color: pink;
+            }
+        }
+        @media (max-width:600px){
+            body{
+                background-color: blue;
+            }
+        }
+
+        div>div{
+            background-color: green;
+            padding:10px;
+            font-size:24px;
+            /* margin:10px;
+            width:200px;
+            height:30px; */
+        }
+        /* .container{
+            
+            display:flex;
+            flex-wrap: wrap;
+        } */
+        .container{
+            display:grid;
+            grid-template-columns: 200px 200px auto;
+            grid-column-gap:20px;
+            grid-row-gap:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <form action="">
+        <div>
+        </div><input type="text" name="fname" id="fname" placeholder="First Name">
+        <input type="text" name="password" id="password" placeholder="Password"> 
+            
+        <div>
+
+        </div><label for="color">Favourite Color:
+        </label>
+        <input type="radio" name="color" id="blue">Blue
+        <input type="radio" name="color" id="green">Green
+        <input type="radio" name="color" id="yellow">Yellow
+        <input type="radio" name="color" id="red">Red
+        <div>
+
+        </div><input type="submit" value="Submit">
+
+    </form> -->
+    <!-- <div style="color: blue; text-align:center;">
+        <h1 >A Colorful Heading!</h1>
+        <p>Hello, world!</p>
+    </div> -->
+    <!-- <table>
+        <tr>
+            <th>Ocean</th>
+            <th>Average Depth</th>
+            <th>Maximum Depth</th>
+        </tr>
+            <tr>
+                <td>Pacific</td>
+                <td>4280 m</td>
+                <td>10911 m</td>
+            </tr>
+            <tr>
+                <td>Atlantic</td>
+                <td>3646 m</td>
+                <td>8486 m</td>
+            </tr>
+    </table> -->
+    <!-- <p class="first">Para 0</p>
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+        <p>Para 3</p>
+        <a href="#">Link 1
+            <p>Para inside</p>
+        </a>
+        <a href="#">Link 1</a>
+    </div>
+    <div>
+        <h1 class="first">Head 1</h1>
+        <h3>Head 3</h3>
+        <p>Para 4</p>
+        <p>Para 5</p>
+    </div> -->
+<!-- 
+    <div>
+        <ol>
+            <li>foo</li>
+            <li>bar</li>
+            <ul><li>hello</li>
+            <li>goodbye</li>
+            <li>hello</li></ul>
+            <li>baz</li>
+        </ol>
+    </div>
+
+    <div ><button class="btns">Button 1</button>
+        <button class="btns">Button 2</button>
+        <button class="btns">Button 3</button>
+    </div> -->
+<!-- <div>
+    <p>Welcome to Website!</p>
+</div> -->
+
+
+<div class="container">
+    <div>Anything 1</div>
+    <div>Anything 2</div>
+    <div>Anything 3</div>
+    <div>Anything 4</div>
+    <div>Anything 5</div>
+    <div>Anything 6</div>
+    <div>Anything 7</div>
+    <div>Anything 8</div>
+    <div>Anything 9</div>
+    <div>Anything 10</div>
+    <div>Anything 11</div>
+    <div>Anything 12</div>
+</div>
+    </html>
+
+</body>
